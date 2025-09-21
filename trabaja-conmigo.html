@@ -1,0 +1,121 @@
+<!-- work-with-me.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Work With Me</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(".faq-toggle").click(function () {
+        $(this).next(".faq-answer").slideToggle("fast");
+      });
+    });
+  </script>
+</head>
+<body class="work-page">
+  <header class="cosmic-banner">
+    <div class="language-switch">
+  <a href="work-with-me.html">🌐 English</a>
+</div>
+
+    <h1>Trabaja Conmigo</h1>
+    <p class="subtitle">Construyamos algo hermoso junt@s.</p>
+         <nav>
+      <ul>
+    <li><a href="index-es.html">Inicio</a></li>
+    <li><a href="about-es.html">Sobre Mí</a></li>
+    <li><a href="https://gwmad.myshopify.com/" target="_blank">Tienda</a></li>
+    <li><a href="blog-es.html">Blog</a></li>
+    <!--<li><a href="resume-es.html">Currículum</a></li> -->
+      </ul>
+    </nav> 
+</header>
+
+  <main class="work-section">
+<section class="cosmic-intro-wrapper">
+  <div class="cosmic-intro">
+    <p>
+      <em>
+    Creo en páginas web que respiran. Que te reflejan, evolucionan contigo, y recuerdan al mundo que la magia existe — en línea y fuera de ella. <br />
+  Ya sea que comiences desde el polvo estelar o estés a mitad de tu órbita, te encuentro donde estás. 🌙
+      </em>
+    </p>
+  </div>
+</section>
+
+    <section class="services">
+      <h2>Servicios</h2>
+      <ul>
+        <li>Diseño y desarrollo personalizado de sitios web</li>
+        <li>Configuración de sitios bilingües (con traducción automática de Google)</li>
+        <li>Diseño responsivo</li>
+        <li>Configuración y estilo de blogs</li>
+        <li>Diseño visual alineado a tu marca</li>
+      </ul>
+    </section>
+
+    <section class="how-it-works">
+      <h2>✨Cómo Funciona</h2>
+      <ol>
+        <li><strong>Contáctame:</strong> Rellena el formulario abajo.</li>
+        <li><strong>Charla Inicial:</strong> Una conversación breve para alinear visiones.</li>
+        <li><strong>Propuesta + Cronograma:</strong> Claro, simple y sin estrés.</li>
+        <li><strong>Creación + Revisión:</strong> Actualizaciones y algunas revisiones.</li>
+        <li><strong>Lanzamiento:</strong> Entrega final y ¡el sitio se publica! 🚀</li>
+</ol>
+    </section>
+
+
+    <section class="contact-form">
+      <h2>📬 Conectemos</h2>
+     <form action="https://formspree.io/f/mpwryarl" method="POST">
+
+        <label for="name">Nombre</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Correo electrónico</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Cuéntame sobre tu proyecto</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+    
+        <section class="faq-section">
+      <h2 class="faq-toggle">🔮 Preguntas Frecuentes</h2>
+      <div class="faq-content">
+        <details>
+      <summary>¿Cuánto tiempo tomará?</summary>
+      <p>Los proyectos suelen tardar de 1 a 5 semanas, según el tamaño y si ya tienes contenido listo. Acordaremos un cronograma desde el principio.</p>
+    </details>
+    <details>
+      <summary>¿Qué necesito para comenzar?</summary>
+      <p>¡Una visión! Yo te guiaré en todo lo demás — desde el contenido hasta el lanzamiento.</p>
+    </details>
+    <details>
+      <summary>¿Cuánto cuesta?</summary>
+      <p>El precio varía según el alcance — desde páginas simples hasta sitios completos. Escríbeme y encontraremos un precio justo para ambas partes.</p>
+    </details>
+    <details>
+      <summary>¿Y si no sé lo que quiero?</summary>
+      <p>No pasa nada — parte de mi proceso es ayudarte a descubrir lo que encaja con tu alma y tus metas.</p>
+    </details>
+    <details>
+      <summary>¿Puedo hacer cambios más adelante?</summary>
+      <p>Ofrezco planes de mantenimiento o ediciones puntuales después del lanzamiento — hablaremos sobre tus necesidades a largo plazo.</p>
+    </details>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 GWMAD • Todos los derechos reservados</p>
+  </footer>
+</body>
+</html>

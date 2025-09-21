@@ -1,0 +1,124 @@
+<!-- work-with-me.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Work With Me</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(".faq-toggle").click(function () {
+        $(this).next(".faq-answer").slideToggle("fast");
+      });
+    });
+  </script>
+</head>
+<body class="work-page">
+  <header class="cosmic-banner">
+    <div class="language-switch">
+  <a href="trabaja-conmigo.html">🌐 Español </a>
+</div>
+    <h1>Work With Me</h1>
+    <p class="subtitle">Let’s build something beautiful together</p>
+         <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="https://gwmad.myshopify.com/" target="_blank">Wear Your Sign</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="work-with-me.html">Contact</a></li>
+      </ul>
+    </nav> 
+</header>
+
+  <main class="work-section">
+<section class="cosmic-intro">
+  <p>
+    <em>
+      <div style="text-align: center;">
+        <div class="center-wrapper">
+          <div class="cosmic-intro">
+      I believe in websites that breathe. Ones that reflect you, evolve with you, and remind the world that magic exists — online and off.  
+      <br>Whether you're starting from stardust or halfway through your orbit, I meet you where you are. 💫
+ </div>
+        </div>
+      </div>
+    </em>
+  </p>
+</section>
+
+    <section class="services">
+      <h2>Services</h2>
+      <ul>
+        <li>Custom Website Design & Development</li>
+        <li>Bilingual Website Setup (with Google Translate)</li>
+        <li>Responsive Design</li>
+        <li>Blog Setup & Styling</li>
+        <li>Brand-Aligned Layouts & Visuals</li>
+      </ul>
+    </section>
+
+    <section class="how-it-works">
+      <h2>✨ How It Works</h2>
+      <ol>
+        <li><strong>Reach Out:</strong> Fill out the form below.</li>
+        <li><strong>Discovery Chat:</strong> A quick chat to align visions.</li>
+        <li><strong>Proposal + Timeline:</strong> Clear, simple, no-stress.</li>
+        <li><strong>Build + Revise:</strong> Updates and a few revisions.</li>
+        <li><strong>Launch:</strong> Final handoff and site goes live! 🚀</li>
+      </ol>
+    </section>
+
+
+    <section class="contact-form">
+      <h2>📬 Let’s Connect</h2>
+      <form action="https://formspree.io/f/mpwryarl" method="POST">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Tell me about your project</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+    
+        <section class="faq-section">
+      <h2 class="faq-toggle">🔮 Frequently Asked Questions</h2>
+      <div class="faq-content">
+        <details>
+          <summary>How long will it take?</summary>
+          <p>Projects usually take 1 to 5 weeks depending on size and readiness of your content. We’ll agree on a timeline upfront.</p>
+        </details>
+        <details>
+          <summary>What do I need to get started?</summary>
+          <p>A vision! I’ll guide you through the rest — from content to launch.</p>
+        </details>
+        <details>
+          <summary>How much does it cost?</summary>
+          <p>Pricing varies depending on the scope — from quick landing pages to full multi-page sites. Reach out and we’ll find a fair rate that honors both of us.</p>
+        </details>
+        <details>
+          <summary>What if I don’t know what I want?</summary>
+          <p>That’s okay — part of my process is helping you discover what fits your soul and your goals.</p>
+        </details>
+        <details>
+          <summary>What if I want updates later?</summary>
+          <p>I offer maintenance plans or one-time edits after launch — we’ll talk about your long-term needs.</p>
+        </details>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 GWMAD • All rights reserved</p>
+  </footer>
+</body>
+</html>
