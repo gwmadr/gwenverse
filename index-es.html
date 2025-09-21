@@ -1,115 +1,55 @@
-
-<script>
-  const scrollToTopBtn = document.getElementById("scrollToTop");
-
-  window.onscroll = () => {
-    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
-      scrollToTopBtn.style.display = "block";
-    } else {
-      scrollToTopBtn.style.display = "none";
-    }
-  };
-
-  scrollToTopBtn.onclick = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
-</script>
-
-
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Multiverse Gwen</title>
   <link rel="stylesheet" href="style.css" />
-  <style>
-    body.home-page {
-      margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(to right, #0d0d2b, #1a1a40);
-      background-image: url('https://www.transparenttextures.com/patterns/stardust.png');
-      background-blend-mode: overlay;
-      background-size: cover;
-      background-repeat: repeat;
-      background-attachment: fixed;
-      color: #ffffff;
-    }
-
-    header.hero {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      height: 120vh;
-      text-align: center;
-      padding: 2rem;
-    }
-
-    .hero h1 {
-      font-size: 4rem;
-      color: #d1b3ff;
-      margin: 0;
-    }
-
-    .hero h2 {
-      font-size: 2rem;
-      color: #ffffff;
-      margin-top: 1rem;
-    }
-
-    .hero p {
-      font-size: 1.5rem;
-      color: #f0f0f6;
-      margin-top: 1rem;
-      max-width: 600px;
-    }
-
-    .hero a.button {
-      display: inline-block;
-      margin-top: 2rem;
-      padding: 0.75rem 2rem;
-      background: #b6c9ff;
-      color: #0d0d2b;
-      font-weight: bold;
-      text-decoration: none;
-      border-radius: 8px;
-      transition: background 0.3s;
-    }
-
-    .hero a.button:hover {
-      background: #d1b3ff;
-    }
-  </style>
+  
 </head>
 <body class="home-page">
-  <header class="hero">
-     <div class="language-switch">
-  <a href="index.html">🌐 English </a>
-</div>
-   <h1>Bienvenid@ al Gwenverse🌠</h1>
-      <h2>Un portal digital donde se encuentran el diseño, la sanación y el cosmos.</h2>
-  <nav>
+    <header class="hero">
+    <div class="language-switch">
+      <a href="index.html">🌐 English</a>
+    </div>
+    <h1>Bienvenid@ al Gwenverse🌠</h1>
+    <h2>Un portal digital donde se encuentran el diseño, la sanación y el cosmos.</h2>
+    <nav>
       <ul>
-    <li><a href="index-es.html">Inicio</a></li>
-    <li><a href="about-es.html">Sobre Mí</a></li>
-    <li><a href="https://gwmad.myshopify.com/" target="_blank">Tienda</a></li>
-    <li><a href="blog-es.html">Blog</a></li>
-    <!--<li><a href="resume-es.html">Currículum</a></li>-->
+        <li><a href="about-es.html">Sobre Mí</a></li>
+        <li><a href="blog-es.html">Blog</a></li>
+        <!--<li><a href="resume-es.html">Currículum</a></li>-->
         <li><a href="trabaja-conmigo.html">Contáctame</a></li>
       </ul>
     </nav>
-<hr class="nav-divider" />
- 
-<p>Entra a un universo que refleja más que solo píxeles — está construido con presencia, propósito y un toque de polvo de estrellas. Ya sea que estés aquí para explorar, colaborar o simplemente pasear, hay una dimensión esperándote.</p>
-<a href="trabaja-conmigo.html" class="button">Trabaja Conmigo</a>
   
-</header>
-</body>
-</html>
-  <footer>
+  
+    <p>Entra a un universo que refleja más que solo píxeles — está construido con presencia, propósito y un toque de polvo de estrellas. Ya sea que estés aquí para explorar, colaborar o simplemente pasear, hay una dimensión esperándote.</p>
+    <a href="trabaja-conmigo.html" class="button">Trabaja Conmigo</a>
+    <hr class="nav-divider" />
+  </header>
+    <div class="page-wrapper">
+   <button id="scrollToTop" title="Scroll to top">⬆️</button>
+   <footer>
     <p>&copy; 2025 GWMAD. Todos los derechos reservados.</p>
   </footer>
+    </div>
 
+  <script>
+    const scrollToTopBtn = document.getElementById("scrollToTop");
+
+    window.onscroll = () => {
+      if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+        scrollToTopBtn.style.display = "block";
+      } else {
+        scrollToTopBtn.style.display = "none";
+      }
+    };
+
+    scrollToTopBtn.onclick = () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+  </script> 
  
+</body>
+</html>
