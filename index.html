@@ -38,14 +38,15 @@
     }
 
     header.hero {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      height: 120vh;
-      text-align: center;
-      padding: 2rem;
-    }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 110vh;
+  text-align: center;
+  padding: 2rem;
+  box-sizing: border-box;
+}
 
     .hero h1 {
       font-size: 4rem;
@@ -61,7 +62,7 @@
 
     .hero p {
       font-size: 1.5rem;
-      color: #f0f0f6;
+      color: #e6e6fa;
       margin-top: 1rem;
       max-width: 600px;
     }
@@ -93,19 +94,24 @@
   <nav>
       <ul>
         <li><a href="about.html">About</a></li>
-        <li><a href="https://gwmad.myshopify.com/" target="_blank">Wear Your Sign</a></li>
         <li><a href="blog.html">Blog</a></li>
         <!--<li><a href="resume.html">Resume</a></li>-->
         <li><a href="work-with-me.html">Contact</a></li>
       </ul>
     </nav>
-<hr class="nav-divider" />
+
  
     <p>Step into a universe that reflects more than just pixels — it's built with presence, purpose, and a touch of stardust. Whether you’re here to explore, collaborate, or just wander through, there’s a dimension waiting for you.</p>
     <a href="work-with-me.html" class="button">Work With Me</a>
+    
+<hr class="nav-divider" />  
   </header>
 </body>
 </html>
   <footer>
     <p>&copy; 2025 GWMAD. All rights reserved.</p>
   </footer>
+  scrollToTopBtn.onclick = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+</script>
